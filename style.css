@@ -186,6 +186,23 @@ body{
     background-color: #fff;
   }
 
+  @media only screen and (max-width: 320px){
+    body {
+      background-color: red;
+    }
+    .container{
+      width: 300px;
+      padding: 5px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .login p{
+      padding: 0 15px;
+    }
+
+
+  }
 
 
 
