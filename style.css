@@ -191,16 +191,25 @@ body{
 
     .main-container{
      flex-direction: column;
+     
     }
     .container{
-      width: 300px;
+      width: 280px;
       padding: 5px;
     }
     .title {
-      font-size: 30px;
+      font-size: 20px;
+    }
+    #submit{
+      padding: 5px;
+      text-align: center;
+      height: 40px;
+      width: 150px;
     }
     .login p{
-      padding: 0 15px;
+      margin-top: 30px;
+      font-size: 15px;
+      /* padding: 0 15px; */
     }
 
 
